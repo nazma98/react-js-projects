@@ -4,16 +4,16 @@ function App() {
 
   return (
     <>
-    <Text />
-    <Text />
+    <Text display="Whats up"/>
+    <Text display="Hello!"/>
     </>
   )
 }
 
-function Text() {
+function Text({display}) {
   return(
     <div>
-      <p>Hello world!</p>
+      <p>{display}</p>
     </div>
   );
 }
